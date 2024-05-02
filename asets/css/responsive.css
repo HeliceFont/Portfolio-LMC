@@ -59,7 +59,7 @@
         transition: all 500ms ease-in-out;
         
     }
-    .menu-toggle__icon{
+    .menu-toggle__icon-linear{
         color: var(--color-principal);
         display: block;
         position: absolute;
