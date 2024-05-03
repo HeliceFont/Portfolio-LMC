@@ -40,6 +40,10 @@
         grid-template-areas: 'content';
         grid-template-columns: 100%;
     }
+    .layout__aside {
+        max-width: 330px; /* O ajusta según tus necesidades */
+        overflow-y: auto; /* Habilitar scroll vertical si el contenido excede el espacio */
+    }
 
     .layout__menu-toggle{
         z-index: 9999;
@@ -72,6 +76,9 @@
     }
     .fa-xmark{
         opacity: 0;
+    }
+    .hidden {
+        display: none;
     }
     .layout__aside{
         z-index: 999;
@@ -236,6 +243,10 @@
         font-size: 4.8rem;
         line-height: 5.6rem;
         text-align: center;
+    }
+    .layout__aside {
+        max-width: 330px; /* O ajusta según tus necesidades */
+        overflow-y: auto; /* Habilitar scroll vertical si el contenido excede el espacio */
     }
     .certificate__logo{
         width: 100%;

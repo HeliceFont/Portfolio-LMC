@@ -55,6 +55,8 @@ body{
     height: 80vh;
     min-height: 80vh;
     margin: 10vh auto;/*con esto situamos la caja en medio, 10vh es para que usa de margenes top y bot del 10%*/
+    overflow-x: hidden;
+    overflow-y: hidden ;
 
     display: grid;
     grid-template-areas: 
@@ -69,8 +71,8 @@ body{
 .layout__aside{
     grid-area: aside;
     border-radius: 4rem 0 0 4rem;
-    /* overflow: hidden; */
-    overflow-x: hidden;
+    overflow: hidden;
+    /* overflow-y: auto; */
 
 } 
 .aside__user-info{
@@ -188,7 +190,7 @@ body{
 /* CONTENEDOR PRINCIPAL */
 .layout__content{
     grid-area: content;
-    
+    overflow-y: auto;
 }
 .content__page{
     min-height: 100%;
