@@ -96,7 +96,7 @@
 
         /*  provisional */
         
-        opacity: 0;
+        opacity: 1;
     }
     /* -- modificadores */
     .layout__aside--visible{
@@ -244,10 +244,10 @@
         line-height: 5.6rem;
         text-align: center;
     }
-    .layout__aside {
-        max-width: 330px; /* O ajusta según tus necesidades */
-        overflow-y: auto; /* Habilitar scroll vertical si el contenido excede el espacio */
-    }
+    /* .layout__aside {
+        max-width: 330px; /* O ajusta según tus necesidades 
+        overflow-y: auto;  Habilitar scroll vertical si el contenido excede el espacio 
+    } */
     .certificate__logo{
         width: 100%;
     }
